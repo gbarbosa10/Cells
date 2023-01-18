@@ -27,7 +27,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using {device} device")
 
 SEPARATE_FILE_IN_TEST = True
-PATH = 'C:/Users/guiti/Documents/INEGI/mariana/'
+PATH = './'
 CROP_SIZE = 200
 BATCH_SIZE = 32
 
